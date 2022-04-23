@@ -24,15 +24,26 @@ House of Cards received positive reviews and several award nominations, includin
 
 ## House of Cards Picture
 
-![*House of Cards*](https://upload.wikimedia.org/wikipedia/en/3/3f/House_of_Cards_title_card.png)
+![*House of Cards*](https://oyster.ignimgs.com/wordpress/stg.ign.com/2015/04/netflix-ratings.jpg)
 
+## Statistics Summary
 
-### Ratings 
+###Viwership Statistics
 
-![](https://preview.redd.it/1d2zug9o4w721.png?width=960&crop=smart&auto=webp&s=6d2421a66b1c893505dd6b7f6871fd3c0ed7d28d)
+![](https://geofflivingston.com/wp-content/uploads/2014/02/hbo-netflix-showtime-event_chartbuilder3.png)
 
- we can easily see from the above plot that there is a sudden decrease in IMDB rating for seson 6. 
+###Tweets Summary
+![](https://geofflivingston.com/wp-content/uploads/2014/02/Tweet-Chatter.jpg)
+###Interest Over Time
+![](https://geofflivingston.com/wp-content/uploads/2014/02/House-of-Cards-Comparison.jpg)
+
+## House of Cards IMDBRatings by Season
+
+![](https://i.redd.it/1d2zug9o4w721.png)
+we can easily see from the above plot that there is a sudden decrease in IMDB rating for season 6. From the above statistics we can conclude that viewership decreases after season 6.
+
  
+
 
 
 
