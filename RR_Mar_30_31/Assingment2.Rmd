@@ -1,0 +1,49 @@
+---
+title: "Assingment 2"
+author: "Muhammad Usman (437790)"
+date: "4/23/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+# House of Cards
+
+## Brief Description
+
+*House of Cards* is an American political thriller streaming television series created by *Beau Willimon*. It is an adaptation of the 1990 BBC series of the same name and based on the 1989 novel of the same name by *Michael Dobbs*. The first 13-episode season was released on February 1, 2013, on the streaming service Netflix. House of Cards is the first TV series to have been produced by a studio for Netflix.
+
+*House of Cards* is set in Washington, D.C., and is the story of *Frank Underwood (Kevin Spacey)*, an amoral politician and Democrat from *South Carolina's* 5th congressional district, and his equally ambitious wife *Claire Underwood (Robin Wright)*. *Frank* is passed over for appointment as Secretary of State but remains House Majority Whip so he initiates an elaborate plan to attain power, aided by Claire. The series deals with themes of ruthless pragmatism,[2] manipulation, betrayal, and power.[3]
+
+House of Cards received positive reviews and several award nominations, including 33 *Primetime Emmy Award* nominations, including for Outstanding Drama Series, Outstanding Lead Actor for Spacey, and Outstanding Lead Actress for Wright.[4] It is the first original online-only streaming television series to receive major Emmy nominations.[5] The show also earned eight Golden Globe Award nominations, with Wright winning for Best Actress – Television Series Drama in 2014 and Spacey winning for Best Actor – Television Series Drama in 2015.[6]
+
+
+## House of Cards Picture
+
+![*House of Cards*](https://oyster.ignimgs.com/wordpress/stg.ign.com/2015/04/netflix-ratings.jpg)
+
+## Statistics Summary
+
+###Viwership Statistics
+
+![](https://geofflivingston.com/wp-content/uploads/2014/02/hbo-netflix-showtime-event_chartbuilder3.png)
+
+###Tweets Summary
+![](https://geofflivingston.com/wp-content/uploads/2014/02/Tweet-Chatter.jpg)
+###Interest Over Time
+![](https://geofflivingston.com/wp-content/uploads/2014/02/House-of-Cards-Comparison.jpg)
+
+## House of Cards IMDBRatings by Season
+
+![](https://i.redd.it/1d2zug9o4w721.png)
+we can easily see from the above plot that there is a sudden decrease in IMDB rating for season 6. From the above statistics we can conclude that viewership decreases after season 6.
+
+ 
+
+
+
+
