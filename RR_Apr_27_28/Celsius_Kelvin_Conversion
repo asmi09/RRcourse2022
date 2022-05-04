@@ -1,0 +1,56 @@
+# Function for converting Fahrenheit to Celsius or Kelvin
+def celsius_kelvin_converter(fahreniet: float,trg_var: str) -> float:
+	# Check for the valid input if not valid then type error as "Invalid" 
+    if trg_var != ('C' or 'k'):
+        raise TypeError("Invalid!.\n Either use Celsius or Kelvin")
+    try:
+        fahreniet = float(fahreniet)
+        # minimum temperature in Fahrenheit 
+        if fahreniet >= -459.67: 
+            Celsius = (fahreniet - 32.0) * (5.0/9.0)
+            if trg_var == 'Celsius':
+                return round(Celsius,1)
+            elif trg_var == 'Kelvin':
+                return round(273.15 + Celsius, 1)
+        # if faranhiet value not within the accepted threshold level type and error
+        else:
+            raise Exception('Invalid Fahrenheit value')        
+    except TypeError:
+            print("Invalid float") 
+            
+#Required tests
+import unittest
+
+class Testing_Converter(unittest.TestCase):
+    #input testing
+    def Input_testing(self):
+        with self.assertRaises(
+            ValueError):
+            celsius_kelvin_converter(50, 'Réaumur')
+    
+    def Kelvin_testing(self):
+        #kelvin conversion testing
+     	self.assertEqual(
+            celsius_kelvin_converter(0,'Kelvin'),255.37)
+     	self.assertEqual(
+            celsius_kelvin_converter(1000,'Kelvin'),810.93)
+
+    def Clesius_testing(self):
+        #celsius conversion testing
+        self.assertEqual(
+            celsius_kelvin_converter(50, 'Celsius'), 10)
+        self.assertEqual(
+            celsius_kelvin_converter(70, 'Celsius'), 21.111)
+        self.assertEqual(
+            celsius_kelvin_converter(90, 'Celsius'), 32.222)
+
+    def out_of_threshold(self):
+        # values within out of range testing
+    	with self.assertRaises(Exception):
+    		celsius_kelvin_converter(-500,'Kelvin')
+    		celsius_kelvin_converter(-900,'Kelvin')
+    		celsius_kelvin_converter(-300,'Kelvin')
+            
+
+if __name__ == '__main__':
+    unittest.main()
